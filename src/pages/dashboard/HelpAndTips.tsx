@@ -177,7 +177,7 @@ export default function HelpAndTips() {
                   <AccordionItem key={index} value={`item-${index}`}>
                     <AccordionTrigger className="text-left">
                       <div className="flex items-center gap-2">
-                        <HelpCircle className="h-4 w-4 text-theme-blue" />
+                        <HelpCircle className="h-4 w-4 text-theme-purple" />
                         {item.question}
                       </div>
                     </AccordionTrigger>
@@ -204,15 +204,15 @@ export default function HelpAndTips() {
                 <div className="space-y-4">
                   <YouTubeEmbed embedId={selectedVideo} />
                   <div className="flex justify-between mt-4">
-                    <button 
+                    <button
                       onClick={() => setSelectedVideo(null)}
                       className="px-4 py-2 text-sm bg-gray-100 hover:bg-gray-200 transition-colors rounded-md flex items-center"
                     >
                       ← Back to videos
                     </button>
-                    <a 
-                      href={`https://www.youtube.com/watch?v=${selectedVideo}`} 
-                      target="_blank" 
+                    <a
+                      href={`https://www.youtube.com/watch?v=${selectedVideo}`}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="px-4 py-2 text-sm bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors rounded-md flex items-center"
                     >
@@ -223,15 +223,15 @@ export default function HelpAndTips() {
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {videoTutorials.map((video) => (
-                    <div 
-                      key={video.id} 
+                    <div
+                      key={video.id}
                       className="border rounded-lg overflow-hidden cursor-pointer hover:shadow-md transition-shadow duration-300"
                       onClick={() => setSelectedVideo(video.embedId)}
                     >
                       <div className="aspect-video bg-gray-100 relative group">
-                        <img 
-                          src={video.thumbnail} 
-                          alt={`Thumbnail for ${video.title}`} 
+                        <img
+                          src={video.thumbnail}
+                          alt={`Thumbnail for ${video.title}`}
                           className="w-full h-full object-cover"
                         />
                         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300">

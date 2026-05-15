@@ -76,7 +76,7 @@ const SignupPage: React.FC = () => {
                     <div className="w-full max-w-md space-y-6">
                         <div className="text-right w-full mb-4">
                             <span className="text-sm text-muted-foreground">Already have an account? </span>
-                            <Link to="/login" className="font-semibold text-theme-blue hover:underline text-sm">
+                            <Link to="/login" className="font-semibold text-theme-purple hover:underline text-sm">
                                 Log In
                             </Link>
                         </div>
@@ -127,7 +127,7 @@ const SignupPage: React.FC = () => {
                             </div>
                             <Button
                                 type="submit"
-                                className="w-full text-lg py-3 bg-theme-blue hover:bg-theme-blue/90 text-white mt-6"
+                                className="w-full text-lg py-3 bg-theme-purple hover:bg-theme-purple/90 text-white mt-6"
                                 disabled={isLoading}
                             >
                                 <UserPlus className="mr-2 h-5 w-5" />
@@ -137,7 +137,7 @@ const SignupPage: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="hidden lg:flex w-1/2 bg-gradient-to-br from-theme-blue to-theme-purple items-center justify-center p-12 text-white flex-col relative overflow-hidden">
+                <div className="hidden lg:flex w-1/2 bg-gradient-to-br from-theme-purple to-theme-purple items-center justify-center p-12 text-white flex-col relative overflow-hidden">
                     <div className="absolute inset-0 bg-opacity-10 bg-white backdrop-blur-sm"></div>
                     <div className="relative z-10 text-center space-y-6">
                         <Quote className="h-12 w-12 text-cyan-300 mx-auto" strokeWidth={1.5} />

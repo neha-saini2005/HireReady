@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11.2%;
 
-    --primary: 217 91% 60%;
+    --primary: 262 83% 58%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 215 32% 17%;
@@ -48,8 +47,8 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -81,17 +80,17 @@
 
 @layer utilities {
   .gradient-text {
-    @apply bg-gradient-to-r from-theme-blue to-theme-emerald bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-theme-purple to-theme-emerald bg-clip-text text-transparent;
   }
-  
+
   .card-hover {
     @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
   }
-  
+
   .resume-progress-bar {
     @apply h-2 rounded-full bg-gray-200 overflow-hidden;
   }
-  
+
   .resume-progress-value {
     @apply h-full rounded-full transition-all duration-500;
   }

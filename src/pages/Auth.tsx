@@ -36,7 +36,7 @@ const Auth = () => {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-theme-blue"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-theme-purple"
             />
           </div>
           <div>
@@ -50,7 +50,7 @@ const Auth = () => {
               minLength={6}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-theme-blue"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-theme-purple"
             />
           </div>
           <Button type="submit" className="w-full">
@@ -60,7 +60,7 @@ const Auth = () => {
         <p className="mt-4 text-center text-gray-600">
           {isLogin ? "Don't have an account?" : "Already have an account?"}{" "}
           <button
-            className="text-theme-blue font-semibold hover:underline"
+            className="text-theme-purple font-semibold hover:underline"
             onClick={() => setIsLogin(!isLogin)}
             type="button"
           >

@@ -89,14 +89,14 @@ const Home = () => {
               </div>
               
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 mb-4 sm:mb-6 leading-tight">
-                AI Career Forge: <span className="relative inline-block">
+                HireReady: <span className="relative inline-block">
                   <span className="relative z-10">Transform</span>
                   <span className="absolute bottom-1 left-0 w-full h-2 sm:h-3 bg-blue-100 -z-10"></span>
                 </span> your job search
               </h1>
               
               <p className="text-base sm:text-lg md:text-xl text-slate-600 mb-6 sm:mb-8 leading-relaxed">
-                AI Career Forge helps you craft the perfect resume and optimize your job search strategy with advanced AI analysis.
+                HireReady helps you craft the perfect resume and optimize your job search strategy with advanced AI analysis.
               </p>
               
               <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 mb-8 sm:mb-10">
@@ -359,7 +359,7 @@ const Home = () => {
                 </div>
                 
                 <p className="text-slate-700 mb-6">
-                  "I landed 3 interviews in my first week after optimizing my resume with AI Career Forge. The keyword suggestions were spot-on for the tech industry."
+                  "I landed 3 interviews in my first week after optimizing my resume with HireReady. The keyword suggestions were spot-on for the tech industry."
                 </p>
                 
                 <div className="flex items-center">

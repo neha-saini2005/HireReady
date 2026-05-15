@@ -88,13 +88,13 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushil930/ai-career-forge.git"
+    "url": "git+https://github.com/neha-saini2005/ai-career-forge.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sushil930/ai-career-forge/issues"
+    "url": "https://github.com/neha-saini2005/ai-career-forge/issues"
   },
-  "homepage": "https://github.com/sushil930/ai-career-forge#readme"
+  "homepage": "https://github.com/neha-saini2005/ai-career-forge#readme"
 }

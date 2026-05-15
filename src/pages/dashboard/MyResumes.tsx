@@ -145,7 +145,7 @@ export default function MyResumes() {
 
         <section>
           <h3 className="text-2xl font-semibold mb-4 flex items-center">
-            <UploadCloud className="mr-3 h-6 w-6 text-theme-blue" /> Uploaded Resumes
+            <UploadCloud className="mr-3 h-6 w-6 text-theme-purple" /> Uploaded Resumes
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[1, 2, 3].map((i) => <ResumeSkeletonCard key={`uploaded-skel-${i}`} />)}
@@ -191,7 +191,7 @@ export default function MyResumes() {
 
       <section>
         <h3 className="text-2xl font-semibold mb-4 flex items-center">
-          <UploadCloud className="mr-3 h-6 w-6 text-theme-blue" /> Uploaded Resumes
+          <UploadCloud className="mr-3 h-6 w-6 text-theme-purple" /> Uploaded Resumes
         </h3>
         {uploadedResumes.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -229,7 +229,7 @@ export default function MyResumes() {
                     </span>
                     {resume.overallScore !== undefined && (
                       <div className="flex items-center gap-1" title={`Analyzed: ${formatTimestamp(resume.analysisTimestamp)}`}>
-                        <span className="font-semibold text-theme-blue text-sm">{resume.overallScore}</span>
+                        <span className="font-semibold text-theme-purple text-sm">{resume.overallScore}</span>
                         <span className="text-xs text-muted-foreground">/100</span>
                       </div>
                     )}
